@@ -13,12 +13,12 @@ value.
 
 | IC | USB VID:PID | `bcdDevice` | Interface |
 |----|-------------|-------------|-----------|
+| **AX88279A** | `0B95:1790` | `0x0500` | USB 3.2 to 2.5G Ethernet Chips |
+| **AX88279**  | `0B95:1790` | `0x0400` | USB 3.2 to 2.5G Ethernet Chips |
+| **AX88179B, AX88179A** | `0B95:1790` | `0x0200` | USB 3.2 to Gigabit Ethernet Chips |
 | **AX88179**  | `0B95:1790` | `0x0100` | USB 3.2 to Gigabit Ethernet Chips |
 | **AX88178A** | `0B95:178A` | —        | USB 2.0 to Gigabit Ethernet Chips |
-| **AX88179B, AX88179A** | `0B95:1790` | `0x0200` | USB 3.2 to Gigabit Ethernet Chips |
 | **AX88772E, AX88772D** | `0B95:1790` | `0x0300` | USB 2.0 to Fast Ethernet Chips |
-| **AX88279**  | `0B95:1790` | `0x0400` | USB 3.2 to 2.5G Ethernet Chips |
-| **AX88279A** | `0B95:1790` | `0x0500` | USB 3.2 to 2.5G Ethernet Chips |
 
 > **AX88179B** and **AX88772E** are newer silicon revisions of AX88179A / AX88772D
 > respectively; they enumerate under the same IDs and are handled by the same
