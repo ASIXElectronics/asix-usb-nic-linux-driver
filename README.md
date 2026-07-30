@@ -1,10 +1,8 @@
-# ASIX USB-to-Ethernet Linux Driver (`ax_usb_nic`)
+# ASIX USB to 2.5G/Gigabit/Fast Ethernet Linux driver (`ax_usb_nic`)
 
-Linux driver for ASIX USB 3.0 / USB 2.0 Gigabit & Fast Ethernet network adapters.
-Driver version **v4.1.0**. Kernel module name: `ax_usb_nic`.
+Official ASIX USB 3.2 / USB 2.0 to 2.5G/Gigabit/Fast Ethernet Linux driver source for AX88279A, AX88279, AX88179B/A, AX88772E/D, and AX88178A controllers. (Kernel module name: `ax_usb_nic`)
 
 ---
-
 ## Supported ICs
 
 ### USB-to-Ethernet controllers (network driver)
@@ -15,12 +13,12 @@ value.
 
 | IC | USB VID:PID | `bcdDevice` | Interface |
 |----|-------------|-------------|-----------|
-| **AX88179**  | `0B95:1790` | `0x0100` | USB 3.0 → Gigabit Ethernet |
-| **AX88178A** | `0B95:178A` | —        | USB 2.0 → Gigabit Ethernet |
-| **AX88179A** | `0B95:1790` | `0x0200` | USB 3.0 → Gigabit Ethernet |
-| **AX88772D** | `0B95:1790` | `0x0300` | USB 2.0 → Fast Ethernet |
-| **AX88279**  | `0B95:1790` | `0x0400` | USB 3.0 → Gigabit Ethernet |
-| **AX88279A** | `0B95:1790` | `0x0500` | USB 3.0 → Gigabit Ethernet |
+| **AX88179**  | `0B95:1790` | `0x0100` | USB 3.2 to Gigabit Ethernet Chips |
+| **AX88178A** | `0B95:178A` | —        | USB 2.0 to Gigabit Ethernet Chips |
+| **AX88179B, AX88179A** | `0B95:1790` | `0x0200` | USB 3.2 to Gigabit Ethernet Chips |
+| **AX88772E, AX88772D** | `0B95:1790` | `0x0300` | USB 2.0 to Fast Ethernet Chips |
+| **AX88279**  | `0B95:1790` | `0x0400` | USB 3.2 to 2.5G Ethernet Chips |
+| **AX88279A** | `0B95:1790` | `0x0500` | USB 3.2 to 2.5G Ethernet Chips |
 
 > **AX88179B** and **AX88772E** are newer silicon revisions of AX88179A / AX88772D
 > respectively; they enumerate under the same IDs and are handled by the same
