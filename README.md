@@ -1,12 +1,12 @@
-# ASIX USB to 2.5G/Gigabit/Fast Ethernet Linux driver (`ax_usb_nic`)
+# ASIX USB to 2.5G/Gigabit/Fast Ethernet Linux driver (`ax_usb_nic.ko`)
 
-Official ASIX USB 3.2 / USB 2.0 to 2.5G/Gigabit/Fast Ethernet Linux driver source for AX88279A, AX88279, AX88179B/A, AX88772E/D, and AX88178A controllers. (Kernel module name: `ax_usb_nic`)
+Official ASIX USB 3.2 / USB 2.0 to 2.5G/Gigabit/Fast Ethernet Linux driver source for AX88279A, AX88279, AX88179B/A, AX88772E/D, and AX88178A controllers. (Kernel module name: `ax_usb_nic.ko`)
 
 ---
-## Supported ICs
+## ASIX USB Ethernet ICs 
+- [USB Ethernet Chips](https://www.asix.com.tw/en/product/USBEthernet)
 
-### USB-to-Ethernet controllers (network driver)
-
+### Supported ICs
 These controllers are bound by the `ax_usb_nic` network driver. All ASIX devices
 enumerate under **VID `0x0B95`**; the exact IC is selected by the USB `bcdDevice`
 value.
