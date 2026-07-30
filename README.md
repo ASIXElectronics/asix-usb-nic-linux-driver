@@ -4,7 +4,7 @@ Official ASIX USB 3.2 / USB 2.0 to 2.5G/Gigabit/Fast Ethernet Linux driver sourc
 
 ---
 ## ASIX USB Ethernet ICs 
-- [USB Ethernet Chips](https://www.asix.com.tw/en/product/USBEthernet)
+- [ASIX USB Ethernet Chips](https://www.asix.com.tw/en/product/USBEthernet)
 
 ### Supported ICs
 These controllers are bound by the `ax_usb_nic` network driver. All ASIX devices
