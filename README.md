@@ -1,6 +1,6 @@
 # ASIX USB to 2.5G/Gigabit/Fast Ethernet Linux driver (`ax_usb_nic.ko`) 
 
-This is the official ASIX USB 3.2 / USB 2.0 to 2.5G/Gigabit/Fast Ethernet Linux driver for AX88279A, AX88279, AX88179B/A, AX88772E/D, and AX88178A controllers (module name: `ax_usb_nic.ko`), which is suitable for edge AI computers, Desktop/Notebook/POS, USB Ethernet dongles, docking stations, smart mobile device cradles, game consoles, smart camera/IP STB, 5G/LTE router/gateway, and smart home/office devices applications. 
+This is the official **ASIX USB 3.2 / USB 2.0 to 2.5G/Gigabit/Fast Ethernet Linux driver** for AX88279A, AX88279, AX88179B/A, AX88772E/D, and AX88178A controllers (module name: `ax_usb_nic.ko`), which is suitable for edge AI computers, Desktop/Notebook/POS, USB Ethernet dongles, docking stations, smart mobile device cradles, game consoles, smart camera/IP STB, 5G/LTE router/gateway, and smart home/office devices applications. 
 
 ---
 ## ASIX USB Ethernet ICs 
